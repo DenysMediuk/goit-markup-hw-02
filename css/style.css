@@ -39,9 +39,8 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', 'Roboto Condensed', 'Merriweather Sans', 'Arial', 'Helvetica', 'Tahoma', sans-serif;
     font-weight: normal;
-    font-style: normal;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
@@ -49,9 +48,8 @@ body {
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Raleway', 'EB Garamond', 'Libre Baskerville', serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.1925;
     letter-spacing: 0.03em;
@@ -125,9 +123,9 @@ a { text-decoration: none; }
 
 .hero .button,
 .hero > span {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em; 
@@ -146,7 +144,6 @@ a { text-decoration: none; }
 
 .feature-list .title {
     font-weight: 700;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.14286;
     text-transform:uppercase;
@@ -166,7 +163,7 @@ a { text-decoration: none; }
 
 /* Чем мы занимаемcя */
 .section-title {
-   font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.166666666;
     text-align: center;
@@ -218,7 +215,7 @@ section .card {
  
 .site-buttons .button,
 .site-buttons > span {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -238,7 +235,7 @@ section .card {
 /* Портфолио */
 
 .section-title-progects {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
